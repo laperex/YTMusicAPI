@@ -19,21 +19,6 @@ class YTMusicAPI:
 			}
 		}
 
-	def __init__(self):
-		self.__Secure_3PSID = "EQjEgbjJXe5lPzGU3qRIgLB9vrfqKXawkKnXUlRPw5_sDYGI6nhgtVBO4DEkYtu1Nm9k3A."
-		self.__Secure_3PAPISID = "bdp7OSsczp8HquJp/ARkKlf3fznr3VYPUc"
-		self.x_origin = 'https://music.youtube.com'
-		self.user_agent = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:86.0) Gecko/20100101 Firefox/86.0'
-		self.key = "AIzaSyC9XL3ZjWddXya6X74dJoCTL-WEYFDNX30"
-		self.payload = {
-			"context": {
-				"client": {
-					"clientName": "WEB_REMIX",
-					"clientVersion": "1.20210920.01.00"
-				}
-			}
-		}
-
 	def google_auth(self):
 		sha_1 = sha1()
 		unix_timestamp = str(int(time.time()))
