@@ -2,7 +2,7 @@
 
 An Unnoficial API for Youtube Music
 
-# TODO
+## TODO
 
 - Figure out a way to Log in without needing to manually pass in the headers.
   - Current workaround is by using a puppeteer program to automate a browser. Slow but acceptable.
@@ -13,6 +13,11 @@ An Unnoficial API for Youtube Music
   - GUI
 
 
-# Usage
+## Usage
 
-Just Copy and PAste the damn thing ffs. 
+Just Copy and Paste the damn thing ffs. 
+
+
+## Note
+
+This was just a pet project I made like an year ago in order to transfer my Spotify Playlists to Youtube Music. I would recommend using [youtubemusicapi](https://ytmusicapi.readthedocs.io/en/latest/) which has a lot more functionality than this one. 
