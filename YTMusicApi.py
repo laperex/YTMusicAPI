@@ -3,8 +3,9 @@ import time
 import requests
 import sqlite3
 
-# Tested on Mozilla FireFox
+# Currently works for only Mozilla FireFox browser
 
+# Pass in the location to the cookie.sqlite file which is present in in %USERPROFILE%\AppData\Roaming\Mozilla\Firefox\Profiles\
 class YTMusicAPI:
 	def __init__(self, profile_path: str=""):
 		self.__Secure_3PSID = ""
