@@ -4,8 +4,6 @@ An Unnoficial API for Youtube Music
 
 ## TODO
 
-- Figure out a way to Log in without needing to manually pass in the headers.
-  - Current workaround is by using a puppeteer program to automate a browser login. Slow but acceptable.
 - Add More Functionality
   - Searching
   - Get Artist Data
